@@ -1,20 +1,20 @@
 {
-"baseURL" : "/",
-"languageCode" : "en-us",
-"theme": "tale-theme",
-"title": "Brevifolia",
-"menu": {
-	"main": [
-		{
-			"name": "about us",
-			"url": "/",
-			"weight": -110
-		},
-		{
-			"name": "winter school",
-			"url": "/",
-			"weight": -100
-		}
-	]
-}
+  "baseURL": "/",
+  "languageCode": "en-us",
+  "theme": "tale-theme",
+  "title": "Brevifolia",
+  "menu": {
+    "main": [
+      {
+        "url": "/",
+        "name": "winter school",
+        "weight": 2
+      },
+      {
+        "url": "/",
+        "name": "about us",
+        "weight": 1
+      }
+    ]
+  }
 }

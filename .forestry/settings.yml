@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: data/issue.json
+  label: issue_info
+  match: "**/*"
 - type: heading
   label: Content
 - type: document
